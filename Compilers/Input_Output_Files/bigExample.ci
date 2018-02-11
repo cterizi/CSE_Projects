@@ -1,0 +1,44 @@
+program BigExample{
+	declare x, y, z enddeclare
+
+	function f1(){
+		declare f11, f12 enddeclare
+		function f2(in f21){
+			function f3(inout f31, in f32){
+				return(f31)
+			}
+			return(10)
+		}
+		f12 := 12 + f2(in 50);
+		return(f12)
+	}
+
+	procedure p1(){
+		declare p11 enddeclare
+		procedure p2(in p21){
+			declare w enddeclare
+
+			w := ((10 - 4)*(45 / 32)) + (21*43)
+		}
+		p11:= p2(in p11);
+	}
+
+	call f1();
+	if((x + y) <> (y + z)){
+		do{
+			exit
+		}while(x*2 >= 0)
+	};
+
+	while(1 <> 1){
+		print(x + 10);
+	};
+
+	select(x)
+		1: {print(1)}
+		2: {print(2)}
+		3: {print(3)}
+		default: {print(0)}
+	;
+	
+}

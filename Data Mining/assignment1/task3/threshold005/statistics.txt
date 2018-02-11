@@ -1,0 +1,29 @@
+Maximal
+Size 1: 297 (297/#freq_1%)
+Size 2: 101
+Size 3: 21
+Size 4: 1
+Size 5: 4
+Size 6: 3
+Size 7: 0
+Size 8: 0
+Size 9: 0
+Size 10: 1
+Size 11: 0
+Size 12: 1 
+
+Total maximal:
+
+Freq 1: 427
+Freq 2: 338
+Freq 3: 460
+Freq 4: 770
+Freq 5: 1066
+Freq 6: 1137
+Freq 7: 912
+Freq 8: 540
+Freq 9: 230
+Freq 10: 67
+Freq 11: 12
+Freq 12: 1
+Freq 13: 0
