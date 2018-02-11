@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\createMaze.cs">
+    <Files>
+      <File FileName="Assets\createMaze.cs" Line="34" Column="32" />
+      <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="1" Column="1" />
+      <File FileName="Assets\destroyCube.cs" Line="19" Column="41" />
+      <File FileName="Assets\selfDestruct.cs" Line="18" Column="26" />
+      <File FileName="Assets\cameraControl.cs" Line="42" Column="4" />
+      <File FileName="Assets\getHammer.cs" Line="1" Column="1" />
+      <File FileName="Assets\collide.cs" Line="1" Column="1" />
+      <File FileName="Assets\throwHammer.cs" Line="79" Column="43" />
+      <File FileName="Assets\teleport.cs" Line="1" Column="1" />
+      <File FileName="Assets\obtainHammer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\maze.txt" Line="3" Column="4" />
+      <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

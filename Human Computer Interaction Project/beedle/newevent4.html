@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+ <html>
+	 <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Chryssa and Stelios">
+		<meta name="description" content="We're Chryssa and Stelios and this is our event scheduling website.">
+		<title>Beedle: New Event</title>
+	 <!--Import Google Icon Font-->
+	 <link rel="shortcut icon" href="blogo_cQL_icon.ico" />
+	 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	 <!--Import materialize.css-->
+	 <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+	 <!--Let browser know website is optimized for mobile-->
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	 </head>
+
+
+	 <body style="background-color: #e1f5fe;">
+
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/myjsfile.js"></script>
+
+		<ul id="dropdown1" class="dropdown-content">
+			  <li><a href="#!">My events</a></li>
+			  <li class="divider"></li>
+			  <li><a href="#!">My invitations</a></li>
+			  <li class="divider"></li>
+			  <li><a href="#!">My account</a></li>
+		</ul>
+		<nav class="light-blue lighten-1" role="navigation">
+			<div class="nav-wrapper container">
+				<a id="logo-container" href="Beedle.html" class="brand-logo">Beedle</a>
+				<ul class="right hide-on-med-and-down">
+			        <li><a href="Beedle.html">Log Out</a></li>
+			        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">My Profile<i class="material-icons right">arrow_drop_down</i></a></li>
+		        </ul>
+	   		</div>
+    
+  		</nav>
+
+  		<div style="margin-left:25%;">
+	  		<h4 style= " padding:10px; margin-top: 3%; text-shadow:2px 2px 8px #b0bec5;">Creating the event</h4>
+	  		<p style="display: inline;"> 1. General 2. Time Proposals 3. Settings</p>
+	  		<p style="padding-bottom:10px; text-shadow:2px 2px 8px #b0bec5; font-weight:bold; display: inline;"> 4. Invitations</p>
+
+	  		<div class="row" style="margin-left: 4%; margin-top: 4%;">
+		       <h5 style=" text-shadow:2px 2px 8px #b0bec5; display: inline;">Sharing settings </h5>
+		       <p> Decide who can participate in your poll. </p>
+
+		        <div class="col s6">
+			       <ul class="collapsible popout" data-collapsible="accordion">
+					    <li>
+					      <div class="collapsible-header">Everyone with a link can participate</div>
+					      <div class="collapsible-body"><p>After creating your poll you will be provided with a link that is unique to your poll and that you can use to invite your participants, e.g. via e-mail. In addition this link is sent to the e-mail addresses you provide Beedle with on this page. Everyone who knows this link will be able to participate. Be aware that everyone can edit every participation when the poll is not protected by a Beedle account.</p>
+						      <div class="switch">
+							    <label>
+							      Off
+							      <input type="checkbox">
+							      <span class="lever"></span>
+							      On
+							    </label>
+							  </div>
+						  </div>
+					    </li>
+					    <li>
+					      <div class="collapsible-header">Only invited people can participate</div>
+					      <div class="collapsible-body"><p>Only people you have invited via Beedle on this page or later using the admin features can participate in your poll. Each participant receives a link that is unique to this person. The link cannot be shared publicly and participants can only add an entry using their personal link and cannot edit the entries of others.</p>
+					        <div class="switch">
+							    <label>
+							      Off
+							      <input type="checkbox">
+							      <span class="lever"></span>
+							      On
+							    </label>
+							  </div>
+						  </div>
+					    </li>
+					</ul>
+			    </div>
+	    	</div>
+	    	<div class="row" style="margin-left: 4%; margin-top: 4%;">
+	    		<h5 style=" text-shadow:2px 2px 8px #b0bec5; display: inline;"> Invite participants  </h5>
+			    <p style="display: inline;"> (Optional)</p>
+			    <p> Type e-mail addresses here and seperate them with Space Bar: </p>
+
+			    <div class="row">
+				    <form class="col s8">
+				      <div class="row">
+				        <div class="input-field col s8">
+				          <textarea id="textarea1" class="materialize-textarea"></textarea>
+				        </div>
+				      </div>
+				    </form>
+			    </div>
+			    <a class="waves-effect waves-light btn modal-trigger  teal lighten-3" href="#modal1">Preview the email</a>
+
+			    <div id="modal1" class="modal">
+				    <div class="modal-content">
+				      	<h4>E-mail preview</h4>
+					    <div class="card-panel  blue lighten-5">
+					    	<p>From: example@example.com</p>
+					    </div>
+					    <div class="card-panel  blue lighten-5">
+					      	<p>Subject: eg. Dinner</p>
+					    </div>
+					    <div class="card-panel  blue lighten-5 ">
+					    	<h5 class="blue-text text-lighten-1"> Beedle</h5>
+					    	<p> Hi there,</p>
+					    	<p> "Your name" (example@example.com) invites you to participate in the Beedle poll "Dinner".</p>
+					    	<p> "Your Description"</p>
+					    	<a class="btn disabled">Participate Now</a>
+					    </div>
+				    </div>
+				    <div class="modal-footer">
+				      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
+				    </div>
+				</div>
+	    	</div>
+	    	<a href="newevent3.html" class="btn-floating waves-effect waves-light  green accent-3"><i class="material-icons">fast_rewind</i></a>
+	    	<a href="eventcreated.html" class="btn-floating btn-large waves-effect waves-light red accent-3">Finish</a>
+	    	<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+			    <a class="btn-floating btn-large blue">
+			      Steps
+			    </a>
+			    <ul>
+			      <li><a href="newevent.html" class="btn-floating green accent-3">1</a></li>
+			      <li><a href="newevent2.html" class="btn-floating red accent-3">2</a></li>
+			      <li><a href="newevent3.html" class="btn-floating lime accent-2">3</a></li>
+			    </ul>
+    		</div>
+	    </div>
+
+	 
+	 </body>
+	 <footer class="page-footer" style="margin-top: 6%; background-color: #616161;">
+          <div class="container">
+            <div class="row">
+              <div class="col s3">
+                <h5 class="white-text">Beedle</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Team</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Jobs</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Media Corner</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Advertise on Beedle</a></li>
+                </ul>
+              </div>
+              <div class="col s3">
+                <h5 class="white-text">Features</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Overview</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Beedle Mobile</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Premium Beedle</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Calendar Connect</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">MeetMe</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">API</a></li>
+                </ul>
+              </div>
+              <div class="col s3">
+                <h5 class="white-text">Support</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">First Steps</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Help</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Lost admin links</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Use-cases</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Online Survey</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Meeting Scheduler</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Online Calendar</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Online Scheduling</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Poll Maker</a></li>
+                </ul>
+              </div>
+              <div class="col s3">
+                <h5 class="white-text">Legal</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Terms</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Privacy</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Imprint</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Stelios and Chryssa
+            <a class="waves-effect waves-light btn modal-trigger   grey darken-2 right" href="#modal3">Choose Language</a>
+
+		  		<div id="modal3" class="modal">
+					    <div class="modal-content">
+					    	<h5 class="purple-text"> Choose your language</h5>
+					      	<div class="row"> 
+					      		<div class="col s3">
+					      			<ul>
+					      				<li><a href="#">English</a></li>
+					      				<li><a href="#">Deutsch</a></li>
+					      				<li><a href="#">français</a></li>
+					      				<li><a href="#">Basque</a></li>
+					      				<li><a href="#">català</a></li>
+					      				<li><a href="#">čeština</a></li>
+					      			</ul>
+					      		</div>
+					      		<div class="col s3">
+					      			<ul>
+					      				<li><a href="#">Cymraeg</a></li>
+					      				<li><a href="#">Dansk</a></li>
+					      				<li><a href="#">English (GB)</a></li>
+					      				<li><a href="#">español</a></li>
+					      				<li><a href="#">italiano</a></li>
+					      				<li><a href="#">Lietuvių</a></li>
+					      			</ul>
+					      		</div>
+					      		<div class="col s3">
+					      			<ul>
+					      				<li><a href="#">magyar</a></li>
+					      				<li><a href="#">Nederlands</a></li>
+					      				<li><a href="#">norsk</a></li>
+					      				<li><a href="#">polski</a></li>
+					      				<li><a href="#">português</a></li>
+					      				<li><a href="#">Português (BR)</a></li>
+					      			</ul>
+					      		</div>
+					      		<div class="col s3">
+					      			<ul>
+					      				<li><a href="#">suomi</a></li>
+					      				<li><a href="#">svenska</a></li>
+					      				<li><a href="#">Türkçe</a></li>
+					      				<li><a href="#">български</a></li>
+					      				<li><a href="#">русский</a></li>
+					      				<li><a href="#">українська</a></li>
+					      			</ul>
+					      		</div>
+					      	</div>
+					    </div>
+					    <div class="modal-footer">
+					      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
+					    </div>
+				</div>
+            </div>
+          </div>
+        </footer>
+ </html>

@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define N 10
+
+void inizializeLevels();
+
+struct level {
+	int **grid;
+};
+
+struct level *levels;
+
+void initializeLevels(){
+	levels = malloc(N * sizeof(struct level*));
+	
+	for (int l = 0; l < 1; l++){
+		levels[l].grid = (int **) malloc(N*sizeof(int *));
+	
+		for (int i = 0; i < N; i++){
+			levels[l].grid[i] = (int *) malloc(N*sizeof(int));
+		}
+	
+		for (int i = 0; i < N; i++){
+			for (int j = 0; j < N; j++){
+				levels[l].grid[i][j] = rand() % 4;
+				printf("%d\n", levels[l].grid[i][j]);
+			}
+		}
+	}
+}
+
+int main(){
+	
+	initializeLevels();
+	/*
+	grid = (int **) malloc(N*sizeof(int *));
+	
+	for (int i = 0; i < N; i++){
+		grid[i] = (int *) malloc(N*sizeof(int));
+	}
+	
+	for (int i = 0; i < N; i++){
+		for (int j = 0; j < N; j++){
+			grid[i][j] = 0;
+			printf("%d\n", grid[i][j]);
+		}
+	}*/
+	
+	return 0;
+}

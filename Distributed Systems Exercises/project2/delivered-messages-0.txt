@@ -1,0 +1,40 @@
+question 1 1 0 0
+answer for 1 question from 1 1 1 0
+question 2 2 1 0
+answer for 2 question from 2 1 2 1
+question 3 3 1 1
+answer for 3 question from 1 2 3 1
+question 4 4 2 1
+answer for 4 question from 2 2 4 2
+question 5 5 2 2
+answer for 5 question from 1 3 5 2
+question 6 6 3 2
+answer for 6 question from 2 3 6 3
+question 7 7 3 3
+answer for 7 question from 1 4 7 3
+question 8 8 4 3
+answer for 8 question from 2 4 8 4
+question 9 9 4 4
+answer for 9 question from 1 5 9 4
+question 10 10 5 4
+answer for 10 question from 2 5 10 5
+question 11 11 5 5
+answer for 11 question from 1 6 11 5
+question 12 12 6 5
+answer for 12 question from 2 6 12 6
+question 13 13 6 6
+answer for 13 question from 1 7 13 6
+question 14 14 7 6
+answer for 14 question from 2 7 14 7
+question 15 15 7 7
+answer for 15 question from 1 8 15 7
+question 16 16 8 7
+answer for 16 question from 2 8 16 8
+question 17 17 8 8
+answer for 17 question from 1 9 17 8
+question 18 18 9 8
+answer for 18 question from 2 9 18 9
+question 19 19 9 9
+answer for 19 question from 1 10 19 9
+question 20 20 10 9
+answer for 20 question from 2 10 20 10

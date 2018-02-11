@@ -1,0 +1,156 @@
+ΕΡΓΑΛΕΙΟ: materializecss
+ΟΜΑΔΑ: Κρομμύδας Αστέριος 2471, Τεριζή Χρυσούλα 2553
+ΗΜΕΡΟΜΗΝΙΑ: 26/9/2016
+
+Στόχος κατασκευής ιστοσελίδας παρόμοια με αυτής του ιστοτόπου doodle.com
+
+ΠΕΡΙΓΡΑΦΗ ΑΡΧΕΙΩΝ:
+
+***Beedle.html***
+Στο navigation bar της αρχικής μας σελίδας υπάρχουν οι επιλογές/κουμπιά Beedle(μετάβαση στην αρχική σελίδα), Sign Up(μετάβαση σε σελίδα όπου ο χρήστης μπορεί να κάνει εγγραφή) και Log In(μετάβαση σε σελίδα όπου ο χρήστης μπορεί να εισάγει τα στοιχεία του και να μπει στον λογαριασμό του και να ξεκινήσει την δημιουργία event).
+Στο κύριο μέρος της ιστοσελίδας υπάρχει το κουμπί SCHEDULE AN EVENT όπου πατώντας το μας μεταφέρει στη σελίδα log in που αναφέρθηκε πριν.
+
+ΚΛΑΣΕΙΣ ΠΟΥ ΑΞΙΟΠΟΙΗΘΗΚΑΝ ΑΠΟ ΤΟ MATERIALIZE:
+nav-wrapper container
+right hide-on-med-and-down
+center-align
+waves-effect waves-light btn-large pink darken-1 z-depth-4
+medium material-icons right
+
+***signup.html***
+Στο navigation bar της σελίδας υπάρχουν οι επιλογές/κουμπιά Beedle και Log In όπως αναφέρθηκαν πριν.
+Στο κύριο μέρος υπάρχει φόρμα που ζητά από έναν μη εγγεγραμμένο χρήστη να εισάγει τα στοιχεία του με εύκολο και ξεκάθαρο τρόπο εφόσον κάθε πεδίο διευκρινίζει ποιο στοιχείο πρέπει να δώσει. Στο πεδίο email γίνεται έλεγχος ώστε ο χρήστης να δώσει ένα έγκυρο email. Τέλος υπάρχει το κουμπί SIGN UP όπου μεταβαίνει τον χρήστη στη σελίδα δημιουργίας event. 
+
+ΚΛΑΣΕΙΣ ΠΟΥ ΑΞΙΟΠΟΙΗΘΗΚΑΝ ΑΠΟ ΤΟ MATERIALIZE:
+nav-wrapper container
+right hide-on-med-and-down
+center-align
+row
+col s10
+input-field col s5
+validate
+tiny material-icons
+btn waves-effect waves-light  amber darken-4
+white-text
+
+***login.html***
+Στο navigation bar της σελίδας υπάρχουν οι επιλογές/κουμπιά Beedle και Sign Up όπως αναφέρθηκαν πριν.
+Στο κύριο μέρος υπάρχει φόρμα που ζητά από έναν ήδη εγγεγραμμένο χρήστη να εισάγει το email και το password του με εύκολο και ξεκάθαρο τρόπο εφόσον κάθε πεδίο διευκρινίζει ποιο στοιχείο πρέπει να δώσει. Στο πεδίο email γίνεται έλεγχος ώστε ο χρήστης να δώσει ένα έγκυρο email. Τέλος υπάρχει το κουμπί LOG IN όπου μεταβαίνει τον χρήστη στη σελίδα δημιουργίας event.
+
+ΚΛΑΣΕΙΣ ΠΟΥ ΑΞΙΟΠΟΙΗΘΗΚΑΝ ΑΠΟ ΤΟ MATERIALIZE:
+light-blue lighten-1
+nav-wrapper container
+brand-logo
+right hide-on-med-and-down
+button-collapse
+material-icons
+center-align
+row
+col s10
+input-field col s10
+validate
+tiny material-icons
+btn waves-effect waves-light  light-green accent-3
+white-text
+material-icons right
+
+***newevent.html***
+Στο navigation bar της σελίδας υπάρχουν οι επιλογές/κουμπιά Beedle, Log Out(αποσύνδεση του χρήστη και μετάβαση στην αρχική σελίδα) και My Profile(ένα dropDown menu όπου μπορεί να παρέχει στον χρήστη τη δυνατότητα να βρει παλιά event που έχει δημιουργήσει ή παρακολουθήσει, προσκλήσεις σε event και πληροφορίες για τον λογαριασμό του).
+Στο κύριο μέρος της σελίδας αρχίζει η διαδικασία δημιουργίας event με το πρώτο στάδιο. Υπάρχει φόρμα που ζητά από το χρήστη τις βασικές πληροφορίες για το event που πρόκειται να δημιουργήσει. Κάνοντας κλικ στο κόκκινο κουμπί μεταβαίνει τον χρήστη στο δεύτερο στάδιο. 
+
+ΚΛΑΣΕΙΣ ΠΟΥ ΑΞΙΟΠΟΙΗΘΗΚΑΝ ΑΠΟ ΤΟ MATERIALIZE:
+dropdown-content
+divider
+light-blue lighten-1
+nav-wrapper container
+dropdown-button
+material-icons right
+row
+col s12
+input-field col s5
+input-field col s7
+materialize-textarea
+validate
+btn-floating disabled
+material-icons
+btn-floating waves-effect waves-light red accent-3
+
+***newevent2.html***
+Το navigation bar έχει τις ίδιες επιλογές με αυτό της σελίδας newevent.html. 
+Στο κύριο μέρος της σελίδας ο χρήστης διαλέγει ημερομηνία και πιθανές ώρες για το event. Αυτό αποτελεί το δεύτερο στάδιο για την δημιουργία event. Πατώντας το πράσινο κουμπί μεταβαίνει στο πρώτο στάδιο για τυχών αλλαγές ενώ πατώντας το κόκκινο κουμπί μεταβαίνει στο τρίτο στάδιο. 
+
+ΚΛΑΣΕΙΣ ΠΟΥ ΑΞΙΟΠΟΙΗΘΗΚΑΝ ΑΠΟ ΤΟ MATERIALIZE:
+datepicker
+active
+input-field col s6
+btn-floating waves-effect waves-light  green accent-3
+btn-floating waves-effect waves-light red accent-3
+material-icons
+
+***newevent3.html***
+Το navigation bar έχει τις ίδιες επιλογές με αυτό της σελίδας newevent.html. 
+Στο κύριο μέρος της σελίδας ο χρήστης μπορεί να επιλέξει κάποια πεδία που αποτελούν επιπρόσθετες ρυθμίσεις για το event. Το πράσινο κουμπί μεταβαίνει τον χρήστη στο δεύτερο στάδιο για τυχών αλλαγές και το κόκκινο στο τέταρτο και τελευταίο στάδιο. 
+
+ΚΛΑΣΕΙΣ ΠΟΥ ΑΞΙΟΠΟΙΗΘΗΚΑΝ ΑΠΟ ΤΟ MATERIALIZE:
+form action="#"
+checkbox
+with-gap
+radio
+checked
+
+***newevent4.html***
+Το navigation bar έχει τις ίδιες επιλογές με αυτό της σελίδας newevent.html. 
+Στο κύριο μέρος της σελίδας στον χρήστη προσφέρονται επιλογές για να προσκαλέσει άτομα στο event. Υπάρχει το κουμπί PREVIEW THE EMAIL όπου γίνεται μία προεπισκόπηση του email που θα σταλθεί στους προσκεκλημένους. Το πράσινο κουμπί τον μεταβαίνει στο τρίτο στάδιο και με το κόκκινο ολοκληρώνει τη δημιουργία event. Τέλος, όντας στο τελευταιο στάδιο της διαδικασίας παρέχουμε στο χρήστη τη δυνατότητα να μεταβεί σε οποιδήποτε από τα προηγούμενα στάδια με ένα fixed action button στο κάτω δεξιά μέρος της σελίδας. 
+
+ΚΛΑΣΕΙΣ ΠΟΥ ΑΞΙΟΠΟΙΗΘΗΚΑΝ ΑΠΟ ΤΟ MATERIALIZE:
+col s6
+collapsible popout
+data-collapsible="accordion"
+collapsible-header
+collapsible-body
+switch
+checkbox
+lever
+materialize-textarea
+waves-effect waves-light btn modal-trigger  teal lighten-3
+modal
+modal-content
+card-panel  blue lighten-5
+blue-text text-lighten-1
+btn disabled
+modal-footer
+modal-action modal-close waves-effect waves-green btn-flat
+fixed-action-btn
+btn-floating btn-large blue
+btn-floating green accent-3
+btn-floating red accent-3
+btn-floating lime accent-2
+
+***eventcreated.html***
+Στο navigation bar της σελίδας υπάρχει η επιλογή/κουμπί Beedle. 
+Στο κύριο μέρος ο χρήστης ενημερώνεται ότι το event έχει δημιουργηθεί και ότι του έχουν σταλεί δύο links στο email του. Σε περίπτωση που δεν έχει λάβει τα δύο links μπορεί να κάνει κλικ στο κουμπί που του παρέχεται ώστε να του ξανασταλούν. 
+
+ΚΛΑΣΕΙΣ ΠΟΥ ΑΞΙΟΠΟΙΗΘΗΚΑΝ ΑΠΟ ΤΟ MATERIALIZE:
+btn
+onclick="Materialize.toast('Your e-mail has been resent!', 4000, 'rounded')"
+
+***<footer/>***
+Το footer είναι κοινό σε όλες τις σελίδες.
+
+ΚΛΑΣΕΙΣ ΠΟΥ ΑΞΙΟΠΟΙΗΘΗΚΑΝ ΑΠΟ ΤΟ MATERIALIZE:
+page-footer
+container
+row
+col s3
+white-text
+grey-text text-lighten-3
+footer-copyright
+waves-effect waves-light btn modal-trigger   grey darken-2 right
+modal
+modal-content
+purple-text
+modal-footer
+modal-action modal-close waves-effect waves-green btn-flat
+
+***myjsfile.js***
+Δημιουργήσαμε και το αρχείο αυτό που περιέχει αρχικοποιήσεις που ήτανε απαραίτητες για κάποιες κλάσεις του materialize. 
